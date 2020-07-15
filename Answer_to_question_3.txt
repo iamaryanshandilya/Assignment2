@@ -1,0 +1,18 @@
+Definition of data type - Data types describe the different types or kinds of 
+                          data that we’re gonna be working with and storing in variables.
+
+
+ Strings are collections of alphanumeric characters and symbols.We use them to store letters and words.
+
+ Numbers are just what they sound like. They’re numbers, including both integers and decimals.
+  Computers will often use numbers to perform mathematical operations,
+   but they may also just be a number like a count of how many flavors of ice cream a particular store has.
+
+Booleans can only have two values. True and false. They represent all data that only has two states, like a light switch. On or off. 
+
+The undefined data type means that the variable has been created,
+ but has never been given a value. It is nothing because no one has ever bothered to tell it what value it should be. 
+
+ Null is similar to undefined, except it has to be set intentionally.
+  It also means empty or nothing, but it’s that way because a developer told it it was empty or nothing. 
+

@@ -1,0 +1,49 @@
+Web console is a tool which is mainly used to log information associated
+with a web page.
+In javascript, console is an object used to access the browser's debugging tool.
+To open the web console in different Operating Systems, we need to do the following:
+
+For Windows 10, Ctrl + Shift + K
+For OS X , we do Command + K
+
+
+
+(i) console.log() = It is basically used to print something on the console, the monitor
+, it can be anything string, array, object, boolean, etc.
+For eg:
+    console.log("Aryan"); - Will print Aryan on the console.
+
+(ii) console.error - It is used to print some error message on the console.
+                    By default, that error message will be highlighted in red color.
+
+For eg:
+    console.error("This is an error message"); - will print an error message in red color.
+
+
+(iii) console.warn() - This is used to print a warning message on the output screen
+                        , by default the warning message will be in yellow color.
+
+For eg:
+    console.warn("This is a warning message")
+
+(iv) console.clear() - Used to clear the console.
+For eg:
+    console.clear(); - This will clear the console.
+
+(v) console.time() and console.timeEnd() - Whenever we want to know the amount of time spend by a block or a
+         function, we can make use of the time() and timeEnd() methods provided by the javascript console object. 
+         They take a label which must be same, and the code inside can be anything( function, object, simple console).
+
+For eg:
+// console.time() and console.timeEnd() method  
+console.time('abc'); 
+ let fun =  function(){ 
+     console.log('fun is running'); 
+ } 
+ let fun2 = function(){ 
+     console.log('fun2 is running..'); 
+ } 
+ fun(); // calling fun(); 
+ fun2(); // calling fun2(); 
+console.timeEnd('abc'); 
+
